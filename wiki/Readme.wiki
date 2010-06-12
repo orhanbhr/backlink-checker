@@ -1,5 +1,5 @@
 #summary General information about installation and usage.
-#labels installation,readme,usage,documentation,manual
+#labels installation,readme,usage,documentation,manual,Featured
 
 = Introduction =
 
