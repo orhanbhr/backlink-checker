@@ -14,7 +14,7 @@ To run the backlink checker you first have to make some configurations.
   * *Internal configuration:*<br/>Set the value of the variable `$SQLUSER` to the user name of your mySQL user. Set the value of the variable `$SQLPASS` to your mySQL password and the value of `$SQLHOST` to your mySQL host (the default ist localhost)
   * *Otional:* Set the value of the variable `$SLEEPTIME` to a value of your choice. This value is the time to sleep until the next scan progress in seconds. Default is 1800 seconds, which are 30 minutes.
   * *mySQL configuration:*<br/>Create a new database with a name of your choice and insert this name as a value for the `$SQLDB` variable.<br/>Create a table with the name *links* in the database you just created including the following fields:
-|| Feld || Typ || Attribute || Standard ||
+|| *Field* || *Type* || *Attributes* || *Default* ||
 || id || int(10) || unsigned || auto_increment, primary_key ||
 || host || varchar(256) || -- || -- ||
 || url || varchar(256) || -- || -- ||
